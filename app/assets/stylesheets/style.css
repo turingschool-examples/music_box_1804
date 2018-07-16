@@ -1,0 +1,117 @@
+
+ol, ul {
+	list-style: none;
+}
+
+body {
+	background-color: #e6fef2;
+}
+
+.form-body {
+	width: 1000px;
+	height: 800px;
+}
+
+.create-song {
+	width: 18em;
+	height: 1.8em;
+	border-radius: 8px;
+	color: white;
+	background-color: #103995;
+	font-family: 'Barlow', sans-serif;
+	margin-top: 1em;
+}
+
+.labels {
+	font-family: 'Josefin Sans', sans-serif;
+	padding: .7em;
+}
+
+#song_title {
+	width: 18em;
+	height: 1.8em;
+	border-radius: 8px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#song_length {
+	width: 18em;
+	height: 1.8em;
+	border-radius: 8px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#song_play_count{
+	width: 18em;
+	height: 1.8em;
+	border-radius: 8px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#create-logo {
+	display: flex;
+	justify-content: center;
+	padding-top: 1em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 150%;
+}
+
+.form-box {
+	width: 100%;
+	height: 100%;
+	background-image: url(/assets/cassette.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.new_song {
+	width: 1000px;
+	height: 800px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.song-attributes {
+	margin-top: 12px;
+	font-family: 'Questrial', sans-serif;
+	font-size: 11px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.songs-container {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 25% 25% 25% 25%;
+}
+
+#logo {
+	font-size: 40px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	font-family: 'Arimo';
+	font-style: italic;
+}
+
+
+#vinyl-image {
+	margin-top: 18px;
+	margin-left: 34px;
+	height: 70px;
+	width: 90px;
+	border-radius: 50%
+}
+
+#song-boxes {
+	padding: 0;
+	margin: 30px;
+	background-color: #e6f3ec;
+	height: 160px;
+	width: 160px;
+	border: 1px solid #e6f3ec;
+	border-radius: 5%;
+}

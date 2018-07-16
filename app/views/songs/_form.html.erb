@@ -1,0 +1,9 @@
+<%= form_for [@artist, @song] do |f| %>
+  <%=f.label :title, 'Title', :class => "labels"%>
+  <%=f.text_field :title%>
+  <%=f.label :length, 'Length', :class => "labels"%>
+  <%=f.text_field :length%>
+  <%=f.label :play_count, 'Play Count', :class => "labels"%>
+  <%=f.text_field :play_count%>
+  <%=f.submit 'Create Song', :class => 'create-song'%>
+<%end%>
